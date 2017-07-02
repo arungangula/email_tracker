@@ -49,3 +49,11 @@ configuration relevant for your application.
 The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) CSS
 framework by default. You can, however, replace it with any other library or
 custom styles.
+
+## Setup
+
+Create database brown_tape
+Change the usename and password in the config file config/email_tracker.php
+Run the migration to create table : /bin/cake migrations migrate
+Seed the table : /bin/cake migrations seed
+If still an issue, truncate the table using path ('/truncate') and try seeding again
