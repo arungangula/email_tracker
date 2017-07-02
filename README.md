@@ -52,8 +52,8 @@ custom styles.
 
 ## Setup
 
-Create database brown_tape.
-Change the usename and password in the config file config/email_tracker.php.
-Run the migration to create table : /bin/cake migrations migrate.
-Seed the table : /bin/cake migrations seed.
+Create database brown_tape.<br/>
+Change the usename and password in the config file config/email_tracker.php.<br/>
+Run the migration to create table : /bin/cake migrations migrate.<br/>
+Seed the table : /bin/cake migrations seed.<br/>
 If still an issue, truncate the table using path ('/truncate') and try seeding again.
